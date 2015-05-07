@@ -1,0 +1,124 @@
+html{overflow-x:hidden;}
+
+.container{max-width: 1220px;}
+
+.padding0{padding:0;}
+.margin0{margin:0;}
+
+.ld-bg-1{overflow: hidden; background: url('/estaticos/landings/particulares/fusion/img/bg-contigo.jpg?1') no-repeat;background-size:cover;}
+.ld-bg-2{overflow: hidden; background: url('/estaticos/landings/particulares/fusion/img/bg-contigo-100.jpg?1') no-repeat;background-size:cover;}
+.ld-bg-3{overflow: hidden; background: url('/estaticos/landings/particulares/fusion/img/bg-todos.jpg?1') 75% -80px no-repeat;background-size:cover;}
+.ld-bg-4{overflow: hidden; background: url('/estaticos/landings/particulares/fusion/img/bg-todos-100.jpg?1') no-repeat;background-size:cover;}
+
+.ld-nav-multi-desktop-menu > ul > li > a {background-color:white; font-size:1.1em;}
+
+.white{color:white !important;}
+.ld-claim-fusion{font: 100 26px 'MovistarHeadlineRegular';}
+.ld-logo-fusion{margin: -10px 0 10px 0; height:35px;}
+
+.ld-nav-desktop h1{font:400 30px 'MovistarHeadlineRegular'; color: #74a93a; margin:0;}
+.ld-nav-desktop h2{font:400 30px 'MovistarHeadlineRegular'; color: #005C84; margin-top:10px;}
+.ld-fila-grande{padding-bottom:20px;}
+.ld-cajas-2{margin:0;} .ld-caja-super{color:white;} .ld-price{color:white;}
+.ld-claim-bold h3{font: 100 26px/1em 'MovistarTextBold';letter-spacing: -1px;margin: 0;}
+.ld-caja-cyp{margin-top:20px;}
+.ld-caracteristicas-1{font:400 18px 'MovistarTextRegular';} .ld-caracteristicas-1 > ul {padding: 0 0 0 20px; list-style-type: disc;}
+.ld-price{font: 100 24px 'MovistarTextRegular';} .ld-price.small{font-size: 16px;}
+.ld-botonera{margin-top:10px;} .btn-left{padding: 0 10px 0 0;} .btn-right{padding: 0 0 0 10px;}
+.ld-oferta{max-width:100%;}
+
+.ld-formulario{background-color:#005C84;background:rgba(0, 92, 132, 0.95);}
+.ld-caja-sub-2{font: 100 16px 'MovistarTextRegular';color: #005C84;text-align: center;background:none; margin:0;} .ld-caja-sub-2 a{float:none;}
+
+
+.ld-fila-grande{background: #005C84;}
+.ld-fila-grande-header{margin-top: 40px; font:100 36px 'MovistarTextRegular'; color:white; text-align:left;}
+.ld-comparativa{font: 100 16px 'MovistarTextRegular';color: white;}
+.ld-comparativa-caja{background: #005674;min-height: 536px;}
+.ld-comparativa-caja-sec{padding: 10px;}
+.ld-comparativa-caja-sec-img{border-bottom: 1px solid #20677F;}
+.ld-comparativa-caja-sec-title{border-bottom: 1px solid #20677F;text-align:center;font-weight:bold;font-size:18px;}
+.ld-legales{background: none;position: relative; font: 100 11px 'MovistarTextRegular'}
+.ld-legales > a {color: #2AB8CE;}
+.ld-icono-comp-1{font-size: 70px;}
+
+.ld-comparativa-2{margin:20px 0; font: 100 14px 'MovistarTextRegular';color: white;}
+.ld-comparativa-2 > span{font: 100 36px 'MovistarTextRegular';color: white;text-align:left;}
+.ld-tabla-contratar{margin-top:20px;}
+.ld-tabla-contratar .sel {background:white;}
+.ld-comparativa-2-sec{border-bottom: 2px solid white;padding: 10px 0;}
+.ld-comparativa-2 .ld-price{font-size:16px;}
+.ld-comparativa-2 .ld-price-small{font-size:12px;}
+.ld-comparativa-2 .ld-price-big{font-size:40px;}
+.ld-icono-comp-2{font-size: 40px;}
+
+.ld-bg-pill-4{overflow: hidden; background: url('/estaticos/landings/particulares/fusion/img/bg-pill-3.jpg') 50% no-repeat !important;background-size:cover;}
+.ld-ofertas-servicios{margin-top:20px; font:100 18px 'MovistarTextRegular'; color:white;}
+.ld-ofertas-servicios-caja{padding: 15px; min-height: 390px; background-color: #005C84;background: rgba(0, 92, 132, 0.7); }
+
+.ld-bg-pill-3{background: url('/estaticos/landings/particulares/fusion/img/bg-futbol-2.jpg') 60% 50% !important; background-size:cover;}
+
+#img-sello-datos{position: absolute;top: -50px;left: -50px;}
+
+/*Desktop*/    
+@media (min-width: 979px) and (max-width: 1200px) {
+	#img-sello-datos{width:200%;top: -25px;left: -20px;}
+}
+
+@media (min-width: 641px) {
+  .container{min-width:1024px;}
+}
+
+/* MOVISTAR MEDIA QUERY EN 640px */
+@media (max-width: 641px) {
+  h1{font:400 26px 'MovistarHeadlineRegular'; color: #74a93a;}
+  h2{font:400 16px 'MovistarHeadlineRegular'; color: #005C84;}
+  .ld-claim-bold h3{font: 100 20px/1em 'MovistarTextBold';}
+  .ld-caracteristicas-1{font:100 16px 'MovistarTextRegular'}
+  .ld-price{font:100 32px 'MovistarHeadlineBold';}
+  .ld-oferta{width:100%;margin-top: 10px;}
+  .ld-padding0-mob{padding:0;}
+  .ld-nav-desktop{margin-top: 5px;}
+  .ld-bg-1{background: #EFEFEF !important;}
+  .ld-bg-2{background: #EFEFEF !important;}
+  .ld-bg-3{background: #C4B490 !important;}
+  .ld-bg-4{background: #EFEFEF !important;}
+  #img-sello-datos{top: -35px;left: -25px;width: 90px;}
+  #pill-4{background:white;}
+  .ld-comparativa-caja{margin-top:15px; min-height:initial;}
+}
+
+.ie8 .ld-bg-1{
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/estaticos/landings/particulares/fusion/img/bg-contigo.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/estaticos/landings/particulares/fusion/img/bg-contigo.jpg', sizingMethod='scale')";
+}
+
+.ie8 .ld-bg-2{
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/estaticos/landings/particulares/fusion/img/bg-contigo-100.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/estaticos/landings/particulares/fusion/img/bg-contigo-100.jpg', sizingMethod='scale')";
+}
+
+.ie8 .ld-bg-3{
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/estaticos/landings/particulares/fusion/img/bg-todos.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/estaticos/landings/particulares/fusion/img/bg-todos.jpg', sizingMethod='scale')";
+}
+
+.ie8 .ld-bg-4{
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/estaticos/landings/particulares/fusion/img/bg-todos-100.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/estaticos/landings/particulares/fusion/img/bg-todos-100.jpg', sizingMethod='scale')";
+}
+
+
+
+
+.ld-tabla-contratar .sel{
+background: -moz-linear-gradient(left, rgba(255,255,255,0) 25%, rgba(42,184,206,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(25%,rgba(255,255,255,0)), color-stop(100%,rgba(42,184,206,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, rgba(255,255,255,0) 25%,rgba(42,184,206,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, rgba(255,255,255,0) 25%,rgba(42,184,206,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, rgba(255,255,255,0) 25%,rgba(42,184,206,1) 100%); /* IE10+ */
+background: linear-gradient(to right, rgba(255,255,255,0) 25%,rgba(42,184,206,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#2ab8ce',GradientType=1 ); /* IE6-9 */}
+
+
+.ld-caja-super{background:rgba(10,97,135,1);}
