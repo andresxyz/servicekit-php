@@ -1,0 +1,1126 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "ico-movistar";
+  src:url("fonts/ico-movistar.eot");
+  src:url("fonts/ico-movistar.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ico-movistar.woff") format("woff"),
+    url("fonts/ico-movistar.ttf") format("truetype"),
+    url("fonts/ico-movistar.svg#ico-movistar") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "ico-movistar" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "ico-movistar" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-circular-tiendas:before {
+  content: "a";
+}
+.icon-circular-agenda:before {
+  content: "b";
+}
+.icon-circular-chat:before {
+  content: "c";
+}
+.icon-circular-conectar:before {
+  content: "d";
+}
+.icon-circular-comunidad:before {
+  content: "f";
+}
+.icon-circular-escribenos:before {
+  content: "g";
+}
+.icon-circular-factura:before {
+  content: "h";
+}
+.icon-circular-fijo:before {
+  content: "i";
+}
+.icon-circular-fusion:before {
+  content: "j";
+}
+.icon-circular-guru:before {
+  content: "k";
+}
+.icon-circular-lineas:before {
+  content: "l";
+}
+.icon-circular-reclamacion:before {
+  content: "m";
+}
+.icon-circular-tiendas:before {
+  content: "n";
+}
+.icon-circular-tv:before {
+  content: "o";
+}
+.icon-circular-soporte-tecnico:before {
+  content: "p";
+}
+.icon-cheuron-dcha:before {
+  content: "q";
+}
+.icon-gplus:before {
+  content: "r";
+}
+.icon-instagram:before {
+  content: "s";
+}
+.icon-facebook:before {
+  content: "t";
+}
+.icon-tuenti:before {
+  content: "u";
+}
+.icon-youtube:before {
+  content: "w";
+}
+.icon-rss:before {
+  content: "x";
+}
+.icon-cheuron-dcha-2:before {
+  content: "y";
+}
+.icon-flecha-dcha-2:before {
+  content: "z";
+}
+.icon-v-down:before {
+  content: "A";
+}
+.icon-flecha-oblicua:before {
+  content: "B";
+}
+.icon-plus:before {
+  content: "C";
+}
+.icon-plus-forte:before {
+  content: "D";
+}
+.icon-tv:before {
+  content: "E";
+}
+.icon-tiendas:before {
+  content: "F";
+}
+.icon-test-velocidad:before {
+  content: "G";
+}
+.icon-movil:before {
+  content: "H";
+}
+.icon-mi-movistar:before {
+  content: "I";
+}
+.icon-por-ser:before {
+  content: "J";
+}
+.icon-router:before {
+  content: "K";
+}
+.icon-sms:before {
+  content: "L";
+}
+.icon-soporte-tecnico:before {
+  content: "M";
+}
+.icon-manos-libres:before {
+  content: "N";
+}
+.icon-lineas:before {
+  content: "O";
+}
+.icon-home:before {
+  content: "P";
+}
+.icon-gestion-servicios:before {
+  content: "Q";
+}
+.icon-agenda:before {
+  content: "S";
+}
+.icon-configuracion:before {
+  content: "T";
+}
+.icon-factura:before {
+  content: "U";
+}
+.icon-fibra:before {
+  content: "V";
+}
+.icon-fijo:before {
+  content: "W";
+}
+.icon-escribenos:before {
+  content: "X";
+}
+.icon-comunidad:before {
+  content: "Y";
+}
+.icon-contactanos:before {
+  content: "Z";
+}
+.icon-directorio:before {
+  content: "0";
+}
+.icon-conectar:before {
+  content: "1";
+}
+.icon-compra:before {
+  content: "2";
+}
+.icon-cobertura-producto:before {
+  content: "3";
+}
+.icon-cobertura:before {
+  content: "4";
+}
+.icon-buscar:before {
+  content: "5";
+}
+.icon-app-mi-movistar:before {
+  content: "6";
+}
+.icon-atencion-cliente:before {
+  content: "7";
+}
+.icon-buscar-mobile:before {
+  content: "8";
+}
+.icon-chat:before {
+  content: "9";
+}
+.icon-desconectar:before {
+  content: "!";
+}
+.icon-moviles-prepago:before {
+  content: "\"";
+}
+.icon-moviles-contrato:before {
+  content: "#";
+}
+.icon-menu:before {
+  content: "$";
+}
+.icon-agenda:before {
+  content: "%";
+}
+.icon-3g:before {
+  content: "&";
+}
+.icon-4g:before {
+  content: "'";
+}
+.icon-aplicaciones:before {
+  content: ")";
+}
+.icon-asistencia-tecnica:before {
+  content: "*";
+}
+.icon-exclusivo-online:before {
+  content: "+";
+}
+.icon-fusion:before {
+  content: ",";
+}
+.icon-movil-contrato:before {
+  content: "/";
+}
+.icon-tv-hd:before {
+  content: "<";
+}
+.icon-circular-3g:before {
+  content: "=";
+}
+.icon-circular-4g:before {
+  content: ">";
+}
+.icon-circular-aplicaciones:before {
+  content: "@";
+}
+.icon-circular-fibra:before {
+  content: "]";
+}
+.icon-circular-exclusivo-online:before {
+  content: "^";
+}
+.icon-circular-movil-contrato:before {
+  content: "{";
+}
+.icon-circular-movil-tarjeta:before {
+  content: "}";
+}
+.icon-circular-ofertas:before {
+  content: "~";
+}
+.icon-circular-tv-hd:before {
+  content: "\\";
+}
+.icon-circular-sms:before {
+  content: "\e000";
+}
+.icon-circular-descargar:before {
+  content: "\e002";
+}
+.icon-circular-flecha-down:before {
+  content: "\e003";
+}
+.icon-descargar:before {
+  content: "\e004";
+}
+.icon-reclamaciones:before {
+  content: "\e005";
+}
+.icon-circular-linkedin:before {
+  content: "\e006";
+}
+.icon-enlace-circular-empresas:before {
+  content: "\e00b";
+}
+.icon-moviles-contrato-izq:before {
+  content: "\e00f";
+}
+.icon-moviles-prepago-izq:before {
+  content: "\e010";
+}
+.icon-linkedin:before {
+  content: "\e011";
+}
+.icon-favoritos:before {
+  content: "\e01f";
+}
+.icon-favoritos-partido:before {
+  content: "\e013";
+}
+.icon-circular-datos:before {
+  content: "\e039";
+}
+.icon-circular-oficina:before {
+  content: "\e045";
+}
+.icon-circular-productividad:before {
+  content: "\e048";
+}
+.icon-accesible:before {
+  content: "\e015";
+}
+.icon-adaptable:before {
+  content: "\e016";
+}
+.icon-ahorro:before {
+  content: "\e017";
+}
+.icon-apple:before {
+  content: "\e019";
+}
+.icon-audiencia:before {
+  content: "\e01a";
+}
+.icon-control:before {
+  content: "\e01c";
+}
+.icon-datos:before {
+  content: "\e050";
+}
+.icon-ecologico:before {
+  content: "\e01d";
+}
+.icon-calidad:before {
+  content: "\e01b";
+}
+.icon-escritorio:before {
+  content: "\e01e";
+}
+.icon-favoritos:before {
+  content: "\e01f";
+}
+.icon-firefox:before {
+  content: "\e021";
+}
+.icon-garantia:before {
+  content: "\e020";
+}
+.icon-global:before {
+  content: "\e026";
+}
+.icon-identidad:before {
+  content: "\e022";
+}
+.icon-innovacion:before {
+  content: "\e023";
+}
+.icon-ipad:before {
+  content: "\e024";
+}
+.icon-iphone:before {
+  content: "\e025";
+}
+.icon-lineas-adicionales:before {
+  content: "\e051";
+}
+.icon-multipantalla:before {
+  content: "\e054";
+}
+.icon-oficina:before {
+  content: "\e02e";
+}
+.icon-organizador:before {
+  content: "\e055";
+}
+.icon-pc:before {
+  content: "\e02d";
+}
+.icon-portatil:before {
+  content: "\e02b";
+}
+.icon-productividad:before {
+  content: "\e02a";
+}
+.icon-red:before {
+  content: "\e027";
+}
+.icon-registrar:before {
+  content: "\e052";
+}
+.icon-seguridad-1:before {
+  content: "\e056";
+}
+.icon-seguridad-pc:before {
+  content: "\e02f";
+}
+.icon-servicios:before {
+  content: "\e030";
+}
+.icon-smartphone:before {
+  content: "\e02c";
+}
+.icon-tablet:before {
+  content: "\e029";
+}
+.icon-tarifa:before {
+  content: "\e057";
+}
+.icon-tiempo:before {
+  content: "\e028";
+}
+.icon-windows:before {
+  content: "\e031";
+}
+.icon-circular-accesible:before {
+  content: "\e032";
+}
+.icon-circular-adaptable:before {
+  content: "\e033";
+}
+.icon-circular-ahorro:before {
+  content: "\e034";
+}
+.icon-circular-apple:before {
+  content: "\e058";
+}
+.icon-circular-audiencia:before {
+  content: "\e036";
+}
+.icon-circular-buscador:before {
+  content: "\e059";
+}
+.icon-circular-buscar:before {
+  content: "\e05a";
+}
+.icon-circular-calidad:before {
+  content: "\e037";
+}
+.icon-circular-control:before {
+  content: "\e007";
+}
+.icon-circular-global:before {
+  content: "\e008";
+}
+.icon-circular-g-plus:before {
+  content: "\e009";
+}
+.icon-circular-garantia:before {
+  content: "\e00a";
+}
+.icon-circular-pc:before {
+  content: "\e00c";
+}
+.icon-circular-firefox:before {
+  content: "\e00e";
+}
+.icon-circular-finanzas:before {
+  content: "\e012";
+}
+.icon-circular-favoritos:before {
+  content: "\e014";
+}
+.icon-circular-facebook:before {
+  content: "\e038";
+}
+.icon-circular-euro:before {
+  content: "\e03a";
+}
+.icon-circular-escritorio:before {
+  content: "\e03b";
+}
+.icon-circular-ecologico:before {
+  content: "\e03c";
+}
+.icon-circular-datos-1:before {
+  content: "\e03d";
+}
+.icon-circular-identidad:before {
+  content: "\e03e";
+}
+.icon-circular-innovacion:before {
+  content: "\e03f";
+}
+.icon-circular-instagram:before {
+  content: "\e040";
+}
+.icon-circular-ipad:before {
+  content: "\e041";
+}
+.icon-circular-iphone:before {
+  content: "\e042";
+}
+.icon-circular-lineas-adicionales:before {
+  content: "\e043";
+}
+.icon-circular-linkedin-1:before {
+  content: "\e044";
+}
+.icon-circular-multipantalla:before {
+  content: "\e046";
+}
+.icon-circular-portatil:before {
+  content: "\e047";
+}
+.icon-circular-red:before {
+  content: "\e04a";
+}
+.icon-circular-registrar:before {
+  content: "\e04b";
+}
+.icon-circular-rss:before {
+  content: "\e04c";
+}
+.icon-circular-seguridad:before {
+  content: "\e04d";
+}
+.icon-circular-seguridad-pc:before {
+  content: "\e04e";
+}
+.icon-circular-servicios:before {
+  content: "\e04f";
+}
+.icon-circular-smartphone:before {
+  content: "\e053";
+}
+.icon-circular-subir:before {
+  content: "\e05b";
+}
+.icon-circular-tablet:before {
+  content: "\e05c";
+}
+.icon-circular-tarifa:before {
+  content: "\e05d";
+}
+.icon-circular-tiempo:before {
+  content: "\e05e";
+}
+.icon-circular-tuenti:before {
+  content: "\e05f";
+}
+.icon-circular-twitter:before {
+  content: "\e060";
+}
+.icon-circular-windows:before {
+  content: "\e061";
+}
+.icon-circular-youtube:before {
+  content: "\e062";
+}
+.icon-fusion-fibra:before {
+  content: "\e063";
+}
+.icon-fusion-fibra-1:before {
+  content: "\e064";
+}
+.icon-guru:before {
+  content: "R";
+}
+.icon-fijo-partido:before {
+  content: "\e066";
+}
+.icon-modem-usb-partido:before {
+  content: "\e067";
+}
+.icon-eliminar:before {
+  content: "\e068";
+}
+.icon-viajar:before {
+  content: "\e069";
+}
+.icon-musica:before {
+  content: "\e06a";
+}
+.icon-preguntas-frecuentes:before {
+  content: "\e06b";
+}
+.icon-circular-noticias:before {
+  content: "\e06e";
+}
+.icon-videoclub:before {
+  content: "\e06f";
+}
+.icon-peliculas:before {
+  content: "\e070";
+}
+.icon-latino:before {
+  content: "\e071";
+}
+.icon-infantil:before {
+  content: "\e072";
+}
+.icon-futbol:before {
+  content: "\e073";
+}
+.icon-documentales:before {
+  content: "\e074";
+}
+.icon-deportes:before {
+  content: "\e075";
+}
+.icon-circular-preguntas-frecuentes:before {
+  content: "\e077";
+}
+.icon-circular-peliculas:before {
+  content: "\e078";
+}
+.icon-circular-musica:before {
+  content: "\e079";
+}
+.icon-circular-futbol:before {
+  content: "\e07a";
+}
+.icon-circular-infantil:before {
+  content: "\e07b";
+}
+.icon-circular-documentales:before {
+  content: "\e07c";
+}
+.icon-circular-deportes:before {
+  content: "\e07d";
+}
+.icon-circular-cine:before {
+  content: "\e07e";
+}
+.icon-circular-calendario:before {
+  content: "\e07f";
+}
+.icon-cine:before {
+  content: "\e080";
+}
+.icon-calendario:before {
+  content: "\e081";
+}
+.icon-circular-familia:before {
+  content: "\e082";
+}
+.icon-circular-x:before {
+  content: "\e083";
+}
+.icon-familia:before {
+  content: "\e084";
+}
+.icon-x:before {
+  content: "\e085";
+}
+.icon-circular-configuracion-movil:before {
+  content: "\e06c";
+}
+.icon-configuracion-movil:before {
+  content: "\e086";
+}
+.icon-circular-alerta:before {
+  content: "\e087";
+}
+.icon-alerta:before {
+  content: "\e088";
+}
+.icon-circular-alerta-1:before {
+  content: "\e089";
+}
+.icon-circular-comparar:before {
+  content: "\e08a";
+}
+.icon-comparar:before {
+  content: "\e00d";
+}
+.icon-menos:before {
+  content: "\e049";
+}
+.icon-circular-aplicateca:before {
+  content: "\e08d";
+}
+.icon-4-twitter-negativo:before {
+  content: "\e08e";
+}
+.icon-4-twitter:before {
+  content: "\e08f";
+}
+.icon-3-twitter-negativo:before {
+  content: "\e090";
+}
+.icon-3-twitter:before {
+  content: "\e091";
+}
+.icon-2-twitter:before {
+  content: "\e092";
+}
+.icon-2-twitter-negativo:before {
+  content: "\e093";
+}
+.icon-1-twitter-negativo:before {
+  content: "\e094";
+}
+.icon-1-twitter:before {
+  content: "\e095";
+}
+.icon-validacion-movil:before {
+  content: "\e08c";
+}
+.icon-twitter-siguenos:before {
+  content: "\e096";
+}
+.icon-enviar:before {
+  content: "\e097";
+}
+.icon-cheuron-izq:before {
+  content: "\e065";
+}
+.icon-circular-atencion-soporte:before {
+  content: "\e08b";
+}
+.icon-circular-ayuda:before {
+  content: "\e098";
+}
+.icon-circular-compra:before {
+  content: "\e099";
+}
+.icon-circular-dvr:before {
+  content: "\e09a";
+}
+.icon-circular-factura-grafico:before {
+  content: "\e09b";
+}
+.icon-circular-familia-1:before {
+  content: "\e09c";
+}
+.icon-circular-icloud:before {
+  content: "\e09d";
+}
+.icon-circular-musica-1:before {
+  content: "\e09e";
+}
+.icon-circular-newsletter:before {
+  content: "\e09f";
+}
+.icon-circular-preguntas-frecuentes-1:before {
+  content: "\e0a0";
+}
+.icon-circular-recarga:before {
+  content: "\e0a1";
+}
+.icon-circular-videoclub:before {
+  content: "\e076";
+}
+.icon-circular-videoconferencia:before {
+  content: "\e0a2";
+}
+.icon-circular-webmail:before {
+  content: "\e0a3";
+}
+.icon-circular-mapa:before {
+  content: "\e0a4";
+}
+.icon-mapa:before {
+  content: "\e0a5";
+}
+.icon-circular-informacion:before {
+  content: "\e0a6";
+}
+.icon-icloud:before {
+  content: "\e0a7";
+}
+.icon-circular-camara:before {
+  content: "\e0a9";
+}
+.icon-circular-conectividad:before {
+  content: "\e0aa";
+}
+.icon-circular-bateria:before {
+  content: "\e0ab";
+}
+.icon-circular-memoria:before {
+  content: "\e0ac";
+}
+.icon-circular-procesador:before {
+  content: "\e0ad";
+}
+.icon-circular-tam-pantalla:before {
+  content: "\e0ae";
+}
+.icon-circular-audio:before {
+  content: "\e0af";
+}
+.icon-circular-cheuron-down:before {
+  content: "\e0b0";
+}
+.icon-circular-camara-1:before {
+  content: "\e0b1";
+}
+.icon-circular-bluetooth:before {
+  content: "\e0b2";
+}
+.icon-circular-grabacion:before {
+  content: "\e0b3";
+}
+.icon-circular-mostrador-tienda:before {
+  content: "\e0b4";
+}
+.icon-circular-bateria-1:before {
+  content: "\e0b5";
+}
+.icon-desbloquear:before {
+  content: "\e0b6";
+}
+.icon-regalo:before {
+  content: "\e0b7";
+}
+.icon-circular-regalo:before {
+  content: "\e0b8";
+}
+.icon-ofertas:before {
+  content: ";";
+}
+.icon-android:before {
+  content: "\e018";
+}
+.icon-circular-android:before {
+  content: "\e035";
+}
+.icon-circular-cheuron-izq:before {
+  content: "\e0b9";
+}
+.icon-circular-cheuron-up:before {
+  content: "\e0ba";
+}
+.icon-flecha-up:before {
+  content: "\e0bb";
+}
+.icon-adultos:before {
+  content: "\e0bc";
+}
+.icon-circular-adultos:before {
+  content: "\e0be";
+}
+.icon-canales-carta:before {
+  content: "\e0bf";
+}
+.icon-circular-apps:before {
+  content: "\e0c0";
+}
+.icon-circular-canales-carta:before {
+  content: "\e0c1";
+}
+.icon-circular-contenido-carta:before {
+  content: "\e0c2";
+}
+.icon-circular-hd:before {
+  content: "\e0c3";
+}
+.icon-circular-guia-tv:before {
+  content: "\e0c4";
+}
+.icon-circular-multipantalla-tv:before {
+  content: "\e0c5";
+}
+.icon-circular-pin-parental:before {
+  content: "\e0c6";
+}
+.icon-circular-programas-tv:before {
+  content: "\e0c7";
+}
+.icon-circular-restart:before {
+  content: "\e0c8";
+}
+.icon-circular-series:before {
+  content: "\e0c9";
+}
+.icon-circular-vo:before {
+  content: "\e0ca";
+}
+.icon-circular-videoteca:before {
+  content: "\e0cb";
+}
+.icon-contenido-carta:before {
+  content: "\e0cc";
+}
+.icon-pin-parental:before {
+  content: "\e0cd";
+}
+.icon-peliculas-1:before {
+  content: "\e0ce";
+}
+.icon-hd:before {
+  content: "\e0cf";
+}
+.icon-guia-tv:before {
+  content: "\e0d0";
+}
+.icon-multipantalla-tv:before {
+  content: "\e0d1";
+}
+.icon-programas-tv:before {
+  content: "\e0d2";
+}
+.icon-series:before {
+  content: "\e0d3";
+}
+.icon-restart:before {
+  content: "\e0d4";
+}
+.icon-vo:before {
+  content: "\e0d5";
+}
+.icon-videoteca:before {
+  content: "\e0d6";
+}
+.icon-moviles-liberados:before {
+  content: "\e0d7";
+}
+.icon-circular-cobertura:before {
+  content: "\e0d8";
+}
+.icon-circular-envios:before {
+  content: "\e0d9";
+}
+.icon-circular-pago-mensual:before {
+  content: "\e0da";
+}
+.icon-circular-moviles-liberados:before {
+  content: "\e0db";
+}
+.icon-circular-test-velocidad:before {
+  content: "\e0dc";
+}
+.icon-news:before {
+  content: "\e0df";
+}
+.icon-guia-rap:before {
+  content: "_";
+}
+.icon-guia-rap-1:before {
+  content: "\e0dd";
+}
+.icon-folleto:before {
+  content: "\e0de";
+}
+.icon-extender-pantalla:before {
+  content: "\e0e0";
+}
+.icon-extender-pantalla-1:before {
+  content: "\e0e1";
+}
+.icon-folleto-1:before {
+  content: "\e0e2";
+}
+.icon-circular-movil:before {
+  content: "\e0e3";
+}
+.icon-reducir-pantalla:before {
+  content: "\e0e6";
+}
+.icon-reducir-pantalla-1:before {
+  content: "\e0e7";
+}
+.icon-volumen-on:before {
+  content: "\e0e8";
+}
+.icon-volumen-off:before {
+  content: "\e0ea";
+}
+.icon-volumen-off-1:before {
+  content: "\e0eb";
+}
+.icon-acceso-clientes-1:before {
+  content: "?";
+}
+.icon-circular-asistencia-tecnica:before {
+  content: "[";
+}
+.icon-apps:before {
+  content: "\e0bd";
+}
+.icon-envios:before {
+  content: "\e0ee";
+}
+.icon-pago-mensual:before {
+  content: "\e0ef";
+}
+.icon-volumen-on-1:before {
+  content: "\e0e9";
+}
+.icon-circular-cheuron-dcha:before {
+  content: "\e001";
+}
+.icon-ahorro-2:before {
+  content: "\e0ed";
+}
+.icon-ahorro-1:before {
+  content: "\e0ec";
+}
+.icon-pay-go:before {
+  content: "\e0f0";
+}
+.icon-circular-pay-go:before {
+  content: "\e0f1";
+}
+.icon-circular-juegos:before {
+  content: "\e0f2";
+}
+.icon-juegos:before {
+  content: "\e0f3";
+}
+.icon-twitter:before {
+  content: "v";
+}
+.icon-test-velocidad-100:before {
+  content: "\e0f4";
+}
+.icon-circular-test-velocidad-100:before {
+  content: "\e0f5";
+}
+.icon-circular-pausa:before {
+  content: "\e0f6";
+}
+.icon-pausa:before {
+  content: "\e0f7";
+}
+.icon-recarga:before {
+  content: "\e0e4";
+}
+.icon-recarga-1:before {
+  content: "\e0e5";
+}
+.icon-circular-movil-tarjeta-4:before {
+  content: ":";
+}
+.icon-circular-movil-tarjeta-8:before {
+  content: "\e0f8";
+}
+.icon-circulra-movil-tarjeta-2:before {
+  content: "\e0f9";
+}
+.icon-movil-tarjeta:before {
+  content: "\e0fa";
+}
+.icon-movil-tarjeta-2:before {
+  content: "\e0fb";
+}
+.icon-movil-tarjeta-4:before {
+  content: "\e0fc";
+}
+.icon-movil-tarjeta-8:before {
+  content: "\e0fd";
+}
+.icon-play:before {
+  content: "\e0fe";
+}
+.icon-circular-movil-tarjeta-6:before {
+  content: "\e0ff";
+}
+.icon-movil-tarjeta-6:before {
+  content: "\e100";
+}
+.icon-noticias:before {
+  content: "\e06d";
+}
+.icon-internet:before {
+  content: "|";
+}
+.icon-internet-movil:before {
+  content: ".";
+}
+.icon-internet-movil-1:before {
+  content: "`";
+}
+.icon-circular-play:before {
+  content: "e";
+}
+.icon-aplicateca:before {
+  content: "\e101";
+}
+.icon-check:before {
+  content: "\e104";
+}
+.icon-circular-red-1:before {
+  content: "\e105";
+}
+.icon-red2:before {
+  content: "\e106";
+}
+.icon-acceso-clientes:before {
+  content: "(";
+}
+.icon-circular-internet:before {
+  content: "\e102";
+}
+.icon-circular-desvio:before {
+  content: "-";
+}
+.icon-desvio:before {
+  content: "\e103";
+}
+.icon-circular-comunidad-profesional:before {
+  content: "\e107";
+}
+.icon-comunidad-profesional:before {
+  content: "\e108";
+}
+.icon-wifi-plus:before {
+  content: "\e109";
+}
+.icon-wifi-plus-1:before {
+  content: "\e10a";
+}
+.icon-informacion:before {
+  content: "\e0a8";
+}
