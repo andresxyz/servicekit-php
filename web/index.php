@@ -54,7 +54,7 @@ $app->get('/', function () use ($app) {
 
 // movistar landing page
 $app->get('/movistar', function () use ($app) {
-    $app->render('movistarTok.html');
+    $app->render('/movistar/movistarTok.html');
 });
 
 // Representative landing page
