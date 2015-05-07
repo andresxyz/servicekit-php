@@ -1,0 +1,355 @@
+/*<==========================================================================================================>*/
+/*Landing CSS Basado en Bootstrap 3 */
+/*<==========================================================================================================>*/
+/*Author: GW */
+/*Date: 30/05/2014 */
+/*Version: 1.2*/
+/*<==========================================================================================================>*/
+/* Genericos */
+h1{font:400 2.4em/1em 'MovistarHeadlineBold'; color:white;}
+h2{font:400 2.0em/1em 'MovistarHeadlineBold';}
+h3{font:400 1.8em/1em 'MovistarHeadlineBold';}
+h4{font:400 1.6em/1em 'MovistarHeadlineBold';}
+h5{font:400 1.4em/1em 'MovistarHeadlineBold';}
+h6{font:400 1.2em/1em 'MovistarHeadlineBold';}
+
+.row.equal [class*="col-"]>* {margin-bottom: -99999px;padding-bottom: 99999px;}
+.row.equal {overflow: hidden;}
+.padding0{padding:0;}
+.margin0{margin:0;}
+.container{max-width:1220px;}
+ul{list-style-type:none;}
+.ld-margin-bot-10{margin-bottom:10px;}
+.ld-margin-top-15{margin-top:15px;}
+.ld-white{color:white !important;}
+
+/*Framework*/
+.ld-row-12 {height: 100%;}
+.ld-row-11 {height: 91.66666666666666%;}
+.ld-row-10 {height: 83.33333333333334%;}
+.ld-row-9 {height: 75%;}
+.ld-row-8 {height: 66.66666666666666%;}
+.ld-row-7 {height: 58.333333333333336%;}
+.ld-row-6 {height: 50%;}
+.ld-row-5 {height: 41.66666666666667%;}
+.ld-row-4 {height: 33.33333333333333%;}
+.ld-row-3 {height: 25%;}
+.ld-row-2 {height: 16.666666666666664%;}
+.ld-row-1 {height: 8.333333333333332%;}
+
+.nav{margin:0;}
+.nav-pills > li > a{padding:10px;}
+.nav-pills > li + li{margin-left:15px;}
+.ld-nav-mobile{padding: 10px 15px;position:fixed;top:0;min-width:100%;z-index:50;background:rgba(255,255,255,1);font-family:'MovistarHeadlineBold'; font-size: 11px;}
+.ld-nav-mobile a {color:#7ab800;font-size: 17px;}
+.ld-nav-multi-mobile img{padding-top:10px;}
+.ld-nav-multi-mobile-left {}
+.ld-nav-multi-mobile-left span {color:white;}
+.ld-nav-multi-mobile-text{font: 100 18px/1em 'MovistarHeadlineBold';}
+.ld-nav-multi-mobile-menu li{font:100 16px/1em 'MovistarTextRegular'; color: #00c6d7; border-bottom:1px solid #34b4aa; border-radius:0px;}
+.ld-nav-multi-mobile-menu .sel{background-color:#005c84;}
+.ld-nav-multi-mobile-menu .sel a{color:white;}
+.ld-nav-mobile-tfno {padding-top: 10px;}
+.ld-nav-desktop{margin-top:30px;} .ld-nav-desktop > .row{margin-left:0;margin-right:0;}
+.ld-row-no-margin{margin-left:0; margin-right:0;}
+.ld-nav-mobile-green{background-color:#75B100;padding-left:0; padding-right:0;}
+.ld-nav-multi-mobile-900 {margin: 15px 0px; font: 100 18px/1em 'MovistarHeadlineBold'; color:#333; text-align:center;}
+.ld-nav-multi-mobile-900 a {color:#75B100;}
+
+.ld-nav-multi-desktop{margin-top:30px;}
+.ld-nav-multi-desktop-menu {}
+.ld-nav-multi-desktop-menu > ul {}
+.ld-nav-mulit-desktop-menu > ul > li {}
+.ld-nav-multi-desktop-menu > ul > li > a {padding: 10px 15px;font-family: MovistarTextRegular;font-size: 18px;color: #0086c3; border-top: 1px solid #34b4aa; border-left: 1px solid #34b4aa; border-radius:0px;background-color:#f1f3f2;}
+.ld-nav-multi-desktop-menu > ul > li > a:hover{background-color:#f1f3f2;}
+.ld-nav-multi-desktop-menu .last{border-right: 1px solid #34b4aa;}
+.ld-nav-multi-desktop-menu .sel a{z-index:1; border:none;background-color:#005c84;color:white;border-top: 10px solid #005c84;border-right: 1px solid #005c84;box-shadow: 1px -1px 5px 0px #888888;}
+.ld-nav-multi-desktop-menu .sel a:hover{background-color:#005c84;}
+.ld-nav-multi-desktop-menu .first{padding:10px 15px;}
+.ld-nav-multi-desktop-menu .nav > li > a:focus{background-color:#005c84;}
+.ld-nav-multi-desktop-menu .nav .sel > li > a:hover{background-color:#005c84;}
+
+.ld-fila-grande{background:#ececec;}
+.ld-fila-grande-canales{background:#134252;padding-bottom:30px; color:white;}
+.ld-fila-grande-canales img {margin-left:-10px;}
+.ld-bg-fila-grande{overflow: hidden; background: url('/estaticos/landings/particulares/tarifas-prepago/fondo2.jpg') no-repeat; background-size: cover;}
+
+.ld-cajas{margin:40px 0px 200px 0px;}
+.ld-cajas-2{margin:20px 0px 140px 0px;}
+.ld-caja{padding:20px; color:white;}
+.ld-caja-2{color:white;}
+.ld-caja-super{background-color: white; background:rgba(255,255,255,0.9); color:#007ac2;}
+.ld-encaja{padding:29px 20px !important;}
+.ld-formulario{text-align: center; background-color: #134252; background: rgba(19,66,82, 0.9);color: white;font-size:16px;font-family:'MovistarTextRegular';padding:10% 5%;}
+.ld-formulario .sc-telefono{font-size: 30px; color:white;}
+.ld-formulario input{color: #333;}
+.ld-cta{position:relative;}
+
+.ld-caja-sub{margin-top:12px; background-color: #134252; background: rgba(38,116,145,0.9);font:100 17px 'MovistarTextRegular';}
+.ld-caja-sub a{font-family: arial; font-weight: bold; color:white; text-decoration: underline; float:right;}
+.ld-caja-sub-2{margin-top:12px; background-color: #134252; background: rgba(38,116,145,0.9);font:100 16px 'MovistarTextRegular';}
+.ld-caja-sub-2 a{font-family: arial; font-weight: bold; text-decoration: underline; float:right; color:#2AB8CE;}
+.ld-formulario .sc-error-politica, .sc-error-nombre, .sc-error-telefono{color: #B0E211;font-size: 13px;font-style: italic;font-family: arial;}
+.ld-input{min-width:100%;}
+.ld-operadora{margin:5px 0px;}
+
+.ld-descriptor{margin-top:50px;}
+.ld-descriptor-mobile{margin-top:75px;}
+
+.ld-claim{}
+.ld-claim h3{font:100 32px/1em 'MovistarTextRegular'; letter-spacing: -2px; margin:0;}
+.ld-claim-bold h3{font:100 32px/1em 'MovistarTextRegular'; letter-spacing: -2px; margin:0; font-weight:bold;}
+.ld-caja-cyp{margin-top: 30px;} .ld-caja-cyp > .row{margin-right: 0;}
+.ld-caracteristicas{font: 100 24px 'MovistarTextRegular'; border:1px solid #007ac2; margin:0 20px; }
+.ld-caracteristicas ul{list-style-type: disc; background:white;}
+.ld-caracteristicas-2{font: 100 18px 'MovistarTextRegular';border: 1px solid #007ac2;}
+.ld-caracteristicas-2 ul{list-style-type:disc; margin:10px 0px; padding-left:28px;}
+
+.ld-price{font:100 34px 'MovistarHeadlineBold'; color:#007ac2;} .ld-price > .row{margin-left:0;margin-right:0;}
+.ld-price-caract{font-size:28px;}
+.ld-price-small{font-size: 18px; vertical-align: top;}
+.ld-price-big{font-size: 80px; line-height: 0.9em;}
+
+.ld-otros{margin:30px 0px 0px 0px;}
+.ld-sub-btn{font: 100 12px 'MovistarTextRegular'; color:#333;}
+.ld-up-btn{font: 100 15px 'MovistarTextBold'; color:#007ac2; margin:7px 0px;}
+.ld-otra-opcion{font: 100 16px 'MovistarTextRegular'; color:#007ac2;}
+.ld-promo-down{font: 100 28px 'MovistarTextRegular'; color:white;}
+.ld-imagen-terminal{position: absolute;width: 80px;left: -26px;top: -44px;}
+.ld-imagen-promo{position: absolute;width: 132px;left: -20px;top: -48px;}
+
+.ld-fila-grande-header{margin: 80px 0px 20px 0px; font:100 40px 'MovistarTextRegular'; color:#005c84; text-align: center;}
+.ld-caja-caracteristicas{font: 100 18px 'MovistarTextRegular'; color: #333;}
+.ld-caja-caracteristicas p {margin: 0 0 30px 0; font: 100 16px 'MovistarTextRegular'; color:#007ac2; }
+.ld-caja-titular{font-size:26px; color:#005c84;}
+.ld-caja-titular span {font-size:26px; color:#007ac2;}
+.ld-caja-titular-canales {font: 100 18px 'MovistarHeadlineRegular';}
+.ld-caja-titular-canales span {font-size:26px; color:white;}
+
+.ld-promo{background: #134252;position: relative; color:white; font: 100 20px/1em 'MovistarTextRegular'; padding: 0 20px;}
+.ld-especiales p {color:#007ac2; font: 100 14px/1em 'MovistarTextRegular';}
+.ld-producto-online{background: #81b913;color: white;font: 100 16px/1em 'MovistarTextBold';padding: 10px;}
+
+.ld-legales{background:#134252; position:relative;}
+.ld-legales p {font:100 12px 'MovistarTextRegular'; color:white;}
+
+.ld-footer{background-color: #134252; padding: 15px 0px;} .nav > li > a:hover, .nav > li > a:focus {background-color: rgba(0,0,0,0);}
+.ld-footer > .row{margin-right: 0;}
+.ld-footer-icono{display:block; background-image: url('http://www.movistar.es/estaticos/m/m/css/images/iconos-peq-claro.png');background-repeat: no-repeat;-moz-border-radius: 9px;-webkit-border-radius: 9px;border-radius: 9px;height: 26px;width: 26px;}
+.ld-footer-icono-fb{background-position: -5px -112px;}
+.ld-footer-icono-twitter{background-position: -44px -112px;}
+.ld-footer-icono-tuenti{background-position: -82px -112px;}
+.ld-footer-icono-google{background-position: -450px -112px;}
+.ld-footer-icono-youtube{background-position: -114px -112px;}
+.ld-footer-icono-telefonica{margin:auto;}
+
+.ld-separador{background-color: #134252; width: 100%;height: 6px;margin: 0;padding: 0;}  
+.ld-separador .ld-separador-icon{background-image: url('http://www.movistar.es/estaticos/m/m/css/images/iconos-peq-claro.png');background-color: #134252; border-radius: 20px;position: relative;top: -12px;background-position: -189px -36px;height: 33px;width: 33px;}
+.ld-caja-caracteristicas ul{margin-top: 0;font: 100 18px 'MovistarTextRegular'; padding-left: 4%;}
+.ld-center{display: table;margin: 0 auto;}
+.ld-separador-blue-light{background-color:#2AB8CE !important;}
+.ld-separador-semi-up-icon{background-image: url('http://www.movistar.es/estaticos/m/m/css/images/iconos-peq-claro.png');background-color: #134252;border-radius: 20px 20px 0 0;position: relative;top: -12px;background-position: -153px -43px;height: 15px;width: 30px;}
+.ld-separador-semi-down-icon{background-image: url('http://www.movistar.es/estaticos/m/m/css/images/iconos-peq-claro.png');background-color: #134252;border-radius: 0 0 20px 20px;position: relative;top: -18px;background-position: -191px -42px;height: 15px;width: 30px;}
+.ld-separador-icon-up{background-image: url('http://www.movistar.es/estaticos/m/m/css/images/iconos-peq-claro.png');background-color: #134252; border-radius: 20px;position: relative;top: -12px;background-position: -151px -37px;height: 33px;width: 33px;}
+.ld-separador-1{position:relative;}
+
+.ld-btn{border: none;border-radius: 0;font:100 16px 'MovistarTextBold'; padding: 6px;}
+.ld-btn.ld-btn-lg{min-width: 100%;}
+.ld-btn.ld-btn-med{min-width: 50%;}
+
+.ld-elements-justified{display: table; width: 100%;}
+.ld-elements-justified > *{display: table-cell; width: 1%;}
+
+.ld-z-index1{z-index:1;}
+.ld-z-index2{z-index:2;}
+.ld-z-index3{z-index:3;}
+
+.ld-p0-right{padding-right:0;}
+.ld-p0-left{padding-left:0;}
+
+.ld-btn-verde {
+  color: #fff;
+  background-color: #81b913;
+}
+.ld-btn-verde:hover,
+.ld-btn-verde:focus,
+.ld-btn-verde:active,
+.ld-btn-verde.active,
+.open .dropdown-toggle.ld-btn-verde {
+  color: #fff;
+  background-color: #547e06;
+}
+.ld-btn-verde:active,
+.ld-btn-verde.active,
+.open .dropdown-toggle.ld-btn-verde {
+  background-image: none;
+}
+.ld-btn-verde.disabled,
+.ld-btn-verde[disabled],
+fieldset[disabled] .ld-btn-verde,
+.ld-btn-verde.disabled:hover,
+.ld-btn-verde[disabled]:hover,
+fieldset[disabled] .ld-btn-verde:hover,
+.ld-btn-verde.disabled:focus,
+.ld-btn-verde[disabled]:focus,
+fieldset[disabled] .ld-btn-verde:focus,
+.ld-btn-verde.disabled:active,
+.ld-btn-verde[disabled]:active,
+fieldset[disabled] .ld-btn-verde:active,
+.ld-btn-verde.disabled.active,
+.ld-btn-verde[disabled].active,
+fieldset[disabled] .ld-btn-verde.active {
+  background-color: #81b913;
+}
+.ld-btn-verde .badge {
+  color: #81b913;
+  background-color: #fff;
+}
+
+/*-----AZUL------*/
+
+.ld-btn-azul {
+  color: #fff;
+  background-color: #00c6d7;
+}
+.ld-btn-azul:hover,
+.ld-btn-azul:focus,
+.ld-btn-azul:active,
+.ld-btn-azul.active,
+.open .dropdown-toggle.ld-btn-azul {
+  color: #fff;
+  background-color: #318088;
+}
+.ld-btn-azul:active,
+.ld-btn-azul.active,
+.open .dropdown-toggle.ld-btn-azul {
+  background-image: none;
+}
+.ld-btn-azul.disabled,
+.ld-btn-azul[disabled],
+fieldset[disabled] .ld-btn-azul,
+.ld-btn-azul.disabled:hover,
+.ld-btn-azul[disabled]:hover,
+fieldset[disabled] .ld-btn-azul:hover,
+.ld-btn-azul.disabled:focus,
+.ld-btn-azul[disabled]:focus,
+fieldset[disabled] .ld-btn-azul:focus,
+.ld-btn-azul.disabled:active,
+.ld-btn-azul[disabled]:active,
+fieldset[disabled] .ld-btn-azul:active,
+.ld-btn-azul.disabled.active,
+.ld-btn-azul[disabled].active,
+fieldset[disabled] .ld-btn-azul.active {
+  background-color: #00c6d7;
+}
+.ld-btn-azul .badge {
+  color: #00c6d7;
+  background-color: #fff;
+}
+
+
+/*-----AZUL OSCURO------*/
+
+.ld-btn-azul-dark {
+  color: #fff;
+  background-color: #134252;
+}
+.ld-btn-azul-dark:hover,
+.ld-btn-azul-dark:focus,
+.ld-btn-azul-dark:active,
+.ld-btn-azul-dark.active,
+.open .dropdown-toggle.ld-btn-azul-dark {
+  color: #fff;
+  background-color: #387F99;
+}
+.ld-btn-azul-dark:active,
+.ld-btn-azul-dark.active,
+.open .dropdown-toggle.ld-btn-azul-dark {
+  background-image: none;
+}
+.ld-btn-azul-dark.disabled,
+.ld-btn-azul-dark[disabled],
+fieldset[disabled] .ld-btn-azul-dark,
+.ld-btn-azul-dark.disabled:hover,
+.ld-btn-azul-dark[disabled]:hover,
+fieldset[disabled] .ld-btn-azul-dark:hover,
+.ld-btn-azul-dark.disabled:focus,
+.ld-btn-azul-dark[disabled]:focus,
+fieldset[disabled] .ld-btn-azul-dark:focus,
+.ld-btn-azul-dark.disabled:active,
+.ld-btn-azul-dark[disabled]:active,
+fieldset[disabled] .ld-btn-azul-dark:active,
+.ld-btn-azul-dark.disabled.active,
+.ld-btn-azul-dark[disabled].active,
+fieldset[disabled] .ld-btn-azul-dark.active {
+  background-color: #134252;
+}
+.ld-btn-azul-dark .badge {
+  color: #134252;
+  background-color: #fff;
+}
+
+
+
+/*<==========================================================================================================>*/
+/* Medias */
+/* Large desktop */
+@media (min-width: 1200px) {    
+}
+    
+/*Desktop*/    
+@media (min-width: 979px) and (max-width: 1200px) {
+	.ld-nav-multi-desktop-menu > ul > li > a{padding:5px;}
+}
+ 
+/* Desde Tablet Vertical hasta Desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+}
+ 
+/* Desde Movil Horizontal hasta Tablet Vertical */
+@media (max-width: 767px) {
+}
+
+/* MOVISTAR MEDIA QUERY EN 640px */
+@media (min-width: 641px) {
+	.container,html {
+		min-width: 1200px;
+	}
+	.ld-nav-multi-mobile-menu{display:none;}
+	.ld-nav-multi-mobile-900{display:none;}
+}
+/* MOVISTAR MEDIA QUERY EN 640px */
+@media (max-width: 641px) {
+	.ld-promo-down{font: 100 17px 'MovistarTextRegular'; color:white;}
+	.ld-imagen-terminal{position: absolute;width: 80px;right:0 !important;top: -50px; left:initial;}
+	.ld-caja-sub-2{font-size:14px;}
+  	.ld-mobile-margin-15{margin-top:15px;}
+  	.ld-price{font-size:26px;}
+  	.ld-price-big{font-size:60px;}
+  	.ld-price-small{font-size:14px;}
+  	.ld-imagen-promo{position: absolute; width: 90px;left: -20px;top: -70px;}
+  	.padding0-mob{padding:0;}
+  	.margin0-mob{margin:0;}
+}
+ 
+/* Movil Horizontal e inferiores */
+@media (max-width: 480px) {
+}
+
+/*<==========================================================================================================>*/
+/* Hacks */
+/* Hacks IE8 */
+.ie8 {}
+
+.ie8 .ld-btn{
+	min-width: 90%;
+	width: 90%;
+}
+
+.ie8 .ld-footer-icono:HOVER{
+	background-color: transparent;
+}
+
+/*<==========================================================================================================>*/
+
+
